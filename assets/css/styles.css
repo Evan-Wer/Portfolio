@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: #d36e3f;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: bisque;
+}
+
+header a {
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding:10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+body {
+    color: 
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/hero_mosaic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.hero div h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    color: bisque;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+body {
+    background-color: #fdfbfa;
+    color: rgb(122, 20, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.my-work {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
