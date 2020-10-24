@@ -43,10 +43,6 @@ header nav ul li a {
     font-size: 1.5vw;
 }
 
-body {
-    color: 
-}
-
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -72,24 +68,45 @@ body {
 }
 
 /* styling for Flex Container and Section Title*/
-.container {
-    display: flex;
+.container{
+    width: 100%;
 }
+
+.item-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.title-container {
+    display: flex;
+    width: 15%;
+    align-items: flex-end;
+}
+
+.content-container {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    border-left: 2px solid;
+}
+
 
 .section-title {
     display: flex;
     font-size: 32px;
-    padding-right: 20px;
-    border-right: 2px solid;
-    text-align: left;
-    margin: 0 auto 35px 0;
+    text-align: right;
+    height: 100%;
 }
+
 /*end of styling for Flex Container and Section Titles*/
 
 
 /* styling for About Me */
 .about-me {
-    padding: 25px;
+    padding: 25px 30px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -97,20 +114,19 @@ body {
 }
 
 .bio {
-    padding-left: 20px;
+    padding: 0 20px 0 20px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
     line-height: 1.3;
-    width: 100%;
-    margin-right: 20%;
+    width: 70%;
 }
 /* end of styling for About Me*/
 
 /* styling for My Work */
 .my-work {
-    padding: 25px;
+    padding: 25px 30px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -121,7 +137,7 @@ body {
 
 /* styling for Contact Section */
 .contact-info {
-    padding: 25px;
+    padding: 25px 30px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -129,10 +145,11 @@ body {
 }
 
 .contact-info p {
-    padding-left: 20px;
+    padding: 0 20px 0 20px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 /* end of styling for Contact Section */
+
