@@ -66,29 +66,73 @@ body {
 }
 
 body {
-    background-color: #fdfbfa;
+    background-color: #f3d0be;
     color: rgb(122, 20, 2);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* styling for Flex Container and Section Title*/
+.container {
+    display: flex;
+}
+
+.section-title {
+    display: flex;
+    font-size: 32px;
+    padding-right: 20px;
+    border-right: 2px solid;
+    text-align: left;
+    margin: 0 auto 35px 0;
+}
+/*end of styling for Flex Container and Section Titles*/
+
+
+/* styling for About Me */
 .about-me {
     padding: 25px;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
+.bio {
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    line-height: 1.3;
+    width: 100%;
+    margin-right: 20%;
+}
+/* end of styling for About Me*/
 
+/* styling for My Work */
 .my-work {
     padding: 25px;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
+/* end of styling for My Work */
 
+
+/* styling for Contact Section */
 .contact-info {
     padding: 25px;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
+
+.contact-info p {
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+/* end of styling for Contact Section */
