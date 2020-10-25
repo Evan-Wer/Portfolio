@@ -130,9 +130,140 @@ body {
     flex-wrap: wrap;
 }
 
-.projects-grid-container {
+.project-grid-container {
     display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
 
+}
+
+.project-grid-item {
+    background-color: #d36e3f;
+    border: 2px solid;
+    color: black;
+}
+
+.a1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("../images/run-buddy.JPG");
+    background-size: auto;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("../images/run-buddy.JPG");
+    background-size: auto;
+} 
+
+.a2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-image: url("../images/Horiseon.JPG");
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-image: url("../images/Horiseon.JPG");
+}
+
+.a3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-image: url("../images/fanpage.JPG");
+}
+
+.box3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-image: url("../images/fanpage.JPG");
+}
+
+.a4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("../images/Spotify.JPG");
+}
+
+.box4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("../images/Spotify.JPG")
+}
+
+.a5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-image: url("../images/Netflix.jpg")
+}
+
+.box5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    background-image: url("../images/Netflix.jpg")
+}
+
+.a1:hover {
+    opacity: 0.3; 
+}
+
+.box1:hover {
+    opacity: 0.3; 
+}
+
+.a2:hover {
+    opacity: 0.3; 
+}
+
+.box2:hover {
+    opacity: 0.3; 
+}
+
+.a3:hover {
+    opacity: 0.3; 
+}
+
+.box3:hover {
+    opacity: 0.3; 
+}
+
+.a4:hover {
+    opacity: 0.3; 
+}
+
+.box4:hover {
+    opacity: 0.3; 
+}
+
+.a5:hover {
+    opacity: 0.3; 
+}
+
+.box5:hover {
+    opacity: 0.3;      
 }
 
 /* end of styling for My Work */
